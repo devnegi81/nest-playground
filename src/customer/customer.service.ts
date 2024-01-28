@@ -5,7 +5,6 @@ export class CustomerService {
     customers = [];
 
     getAllCusomerts() {
-        console.log("return customers:-", this.customers)
         return this.customers;
     }
 
